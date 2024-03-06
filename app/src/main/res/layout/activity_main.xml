@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_marginTop="50dp"
+       android:gravity="center"
+       android:layout_marginBottom="50dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <ImageView
+          android:background="@drawable/appicon"
+          android:layout_width="80dp"
+          android:layout_height="80dp" />
+
+      <TextView
+          android:layout_marginTop="10dp"
+          android:textAlignment="center"
+          android:text="EduErp App"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_margin="20dp"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <EditText
+          android:id="@+id/etLoginID"
+          android:background="@drawable/ddlbg"
+          android:paddingLeft="10dp"
+          android:hint="Enter Login ID"
+          android:layout_width="match_parent"
+          android:layout_height="45dp" />
+
+      <EditText
+          android:id="@+id/etPass"
+          android:layout_marginTop="20dp"
+          android:paddingLeft="10dp"
+          android:background="@drawable/ddlbg"
+          android:hint="Enter Pass"
+          android:layout_width="match_parent"
+          android:layout_height="45dp" />
+
+      <Button
+          android:id="@+id/btnLogin"
+          android:layout_marginTop="20dp"
+          android:text="Login"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+   </LinearLayout>
+
+</LinearLayout>
